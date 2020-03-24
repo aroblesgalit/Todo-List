@@ -7,5 +7,8 @@ In this application, you can add items to the list and delete them. The list is 
 * Created own HTML and CSS
 * Practiced using local storage
 
+## Deployed App
+[Todo List](https://aroblesgalit.github.io/Todo-List/)
+
 ## Screenshots
 ![Todo List Screenshot](https://github.com/aroblesgalit/Todo-List/blob/master/Assets/Images/todo-list.JPG?raw=true)
