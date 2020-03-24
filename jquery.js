@@ -74,9 +74,20 @@ $(document).ready(function () {
 
 
     // When x button is clicked
-    // Find its data index
-    // Delete from array
-    // Render ui
+    todoList.on("click", function (e) {
+        // Find its parent element
+        var element = e.target;
 
+        if (e.target.matches("i")) {
+            // Get its data index
+            var itemIndex = element.getAttribute("data-index");
+            // Use splice to remove it from list
+            todosArray.splice(itemIndex, 1);
+            // Store updated todosArray to localStorage
+            storeArray();
+            // Re-render list
+            renderList();
+        }
+    });
 
 })
