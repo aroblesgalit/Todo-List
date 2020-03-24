@@ -62,6 +62,12 @@ header h1 {
     border-radius: 4px;
     color: var(--colorBlack);
     font-weight: bold;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: #f2f2f2;
+    color: var(--colorBlue)
 }
 
 #todo-list {
@@ -98,4 +104,20 @@ header h1 {
 .closeButton:hover {
     background-color: rgb(185, 26, 45);
     color: #032038;
+}
+
+
+/* ON MOBILE OR SMALLER DEVICES */
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
 }
