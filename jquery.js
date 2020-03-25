@@ -76,7 +76,7 @@ $(document).ready(function () {
     // When x button is clicked
     todoList.on("click", function (e) {
         // Find its parent element
-        var element = e.target;
+        var element = e.target.parentElement;
 
         if (e.target.matches("i")) {
             // Get its data index
